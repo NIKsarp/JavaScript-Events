@@ -1,0 +1,95 @@
+/* -------------------------------------------- */
+/* HTML Body Start */
+
+:root {
+  --gap: 0.75rem;
+  --white: #fffffe;
+  --black: #121212;
+  --transition: all 0.3s ease;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: currentColor;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(203, 167, 239);
+}
+
+.base {
+  padding: var(--gap);
+  margin: var(--gap) 0;
+}
+
+/* HTML Body End */
+/* -------------------------------------------- */
+/* KeyUp Event Start */
+
+h1 {
+  padding: var(--gap);
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "Gill Sans MT", sans-serif;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  padding: 2rem;
+  margin: var(--gap);
+  color: var(--black);
+  border-radius: var(--gap);
+  animation: popup 0.3s ease;
+  transition: var(--transition);
+  width: clamp(20rem, 10vw, 30rem);
+  font-size: clamp(1rem, 5vw, 2rem);
+  box-shadow: 0px 1rem 2rem var(--black);
+  font-family: "Gill Sans MT", sans-serif;
+}
+
+input:focus {
+  scale: 0.9;
+  box-shadow: none;
+}
+
+label {
+  margin-block: 2rem;
+  padding: var(--gap);
+  border-radius: var(--gap);
+  background-color: var(--white);
+}
+
+label .color {
+  font-weight: bold;
+  padding: 3px var(--gap);
+  border-radius: var(--gap);
+  background-color: #00ff00;
+}
+
+/* -------------------------------------------- */
+
+@keyframes popup {
+  to {
+    scale: 1;
+  }
+
+  from {
+    scale: 0.2;
+  }
+}
+
+/* KeyUp Event End */
+/* -------------------------------------------- */

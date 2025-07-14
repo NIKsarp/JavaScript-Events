@@ -1,0 +1,81 @@
+/* -------------------------------------------- */
+/* HTML Body Start */
+
+:root {
+  --gap: 0.75rem;
+  --white: #fffffe;
+  --black: #121212;
+  --transition: all 0.3s ease;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: currentColor;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(203, 167, 239);
+}
+
+.base {
+  padding: var(--gap);
+  margin: var(--gap) 0;
+}
+
+/* HTML Body End */
+/* -------------------------------------------- */
+/* MouseMove Event Start */
+
+.base {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 40vw;
+  padding: 2rem;
+  cursor: pointer;
+  margin: var(--gap);
+  border-radius: 4rem;
+  color: var(--black);
+  text-align: center;
+  word-break: keep-all;
+  animation: popup 0.3s ease;
+  transition: var(--transition);
+  background-color: var(--white);
+  width: clamp(30rem, 60vw, 70rem);
+  font-size: clamp(2rem, 5vw, 8rem);
+  box-shadow: 0px 2rem 2rem var(--black);
+  font-family: "Gill Sans MT", sans-serif;
+}
+
+/* -------------------------------------------- */
+
+@keyframes popup {
+  to {
+    scale: 1;
+  }
+
+  from {
+    scale: 0.2;
+  }
+}
+
+/* -------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  button {
+    cursor: text;
+    word-break: keep-all;
+  }
+}
+
+/* MouseMove Event End */
+/* -------------------------------------------- */

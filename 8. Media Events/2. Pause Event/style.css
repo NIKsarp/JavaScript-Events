@@ -1,0 +1,90 @@
+/* -------------------------------------------- */
+/* HTML Body Start */
+
+:root {
+  --gap: 0.75rem;
+  --white: #fffffe;
+  --black: #121212;
+  --transition: all 0.3s ease;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: currentColor;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(203, 167, 239);
+}
+
+.base {
+  padding: var(--gap);
+  margin: var(--gap) 0;
+}
+
+/* HTML Body End */
+/* -------------------------------------------- */
+/* Pause Event Start */
+
+h1 {
+  padding: var(--gap);
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "Gill Sans MT", sans-serif;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  margin: var(--gap);
+  flex-direction: column;
+  justify-content: center;
+}
+
+video {
+  margin: var(--gap);
+  color: var(--black);
+  border-radius: var(--gap);
+  animation: popup 0.3s ease;
+  transition: var(--transition);
+  width: clamp(20rem, 10vw, 40rem);
+  font-size: clamp(1rem, 5vw, 2rem);
+  box-shadow: 0px 1rem 2rem var(--black);
+  font-family: "Gill Sans MT", sans-serif;
+}
+
+p {
+  margin-block: 2rem;
+  padding: var(--gap);
+  border-radius: var(--gap);
+  background-color: var(--white);
+}
+
+#result {
+  margin-block: 2rem;
+  padding: var(--gap);
+  border-radius: var(--gap);
+  background-color: var(--white);
+}
+
+/* -------------------------------------------- */
+
+@keyframes popup {
+  to {
+    scale: 1;
+  }
+
+  from {
+    scale: 0.2;
+  }
+}
+
+/* Pause Event End */
+/* -------------------------------------------- */
