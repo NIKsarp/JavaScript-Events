@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // FocusOut Event Start
 
 const input = document.getElementById(`input`);
@@ -9,4 +9,4 @@ input.addEventListener(`focusout`, () => {
 });
 
 // FocusOut Event End
-// --------------------------------------------
+// --------------------------------

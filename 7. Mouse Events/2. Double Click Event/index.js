@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // DoubleClick Event Start
 
 const button = document.getElementById(`button`);
@@ -9,4 +9,4 @@ button.addEventListener(`dblclick`, (e) => {
 });
 
 // DoubleClick Event End
-// --------------------------------------------
+// --------------------------------

@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // KeyDown Event Start
 
 const input = document.getElementById(`input`);
@@ -16,4 +16,4 @@ input.addEventListener(`keydown`, (event) => {
 });
 
 // KeyDown Event End
-// --------------------------------------------
+// --------------------------------

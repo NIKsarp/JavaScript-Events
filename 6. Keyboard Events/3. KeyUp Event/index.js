@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // KeyUp Event Start
 
 const input = document.getElementById(`input`);
@@ -16,4 +16,4 @@ input.addEventListener(`keyup`, (event) => {
 });
 
 // KeyUp Event End
-// --------------------------------------------
+// --------------------------------

@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Resize Event Start
 
 const result = document.getElementById(`result`);
@@ -8,4 +8,4 @@ window.addEventListener(`resize`, (e) => {
 });
 
 // Resize Event End
-// --------------------------------------------
+// --------------------------------

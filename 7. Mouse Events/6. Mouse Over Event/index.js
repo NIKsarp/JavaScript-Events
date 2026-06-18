@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // MouseOver Event Start
 
 const button = document.getElementById(`button`);
@@ -9,8 +9,7 @@ button.addEventListener(`mouseover`, (e) => {
   e.target.style.backgroundColor = color;
 
   console.log(color);
-
 });
 
 // MouseOver Event End
-// --------------------------------------------
+// --------------------------------

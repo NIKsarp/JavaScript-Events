@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // FocusIn Event Start
 
 const input = document.getElementById(`input`);
@@ -9,4 +9,4 @@ input.addEventListener(`focusin`, () => {
 });
 
 // FocusIn Event End
-// --------------------------------------------
+// --------------------------------

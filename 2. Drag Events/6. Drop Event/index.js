@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Drop Event Start
 
 const droppedBox = document.getElementById(`droppedBox`);
@@ -13,4 +13,4 @@ droppedBox.addEventListener(`drop`, (e) => {
 });
 
 // Drop Event End
-// --------------------------------------------
+// --------------------------------

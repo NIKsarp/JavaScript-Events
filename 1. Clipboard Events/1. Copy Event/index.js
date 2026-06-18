@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Copy Event Start
 
 const textarea = document.getElementById(`textarea`);
@@ -9,4 +9,4 @@ textarea.addEventListener(`copy`, () => {
 });
 
 // Copy Event End
-// --------------------------------------------
+// --------------------------------

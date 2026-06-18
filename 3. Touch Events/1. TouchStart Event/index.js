@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // TouchStart Event Start
 
 const button = document.getElementById(`button`);
@@ -8,4 +8,4 @@ button.addEventListener(`touchstart`, (e) => {
 });
 
 // TouchStart Event End
-// --------------------------------------------
+// --------------------------------

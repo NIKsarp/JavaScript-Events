@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Click Event Start
 
 const button = document.getElementById(`button`);
@@ -7,4 +7,4 @@ button.addEventListener(`click`, (e) => {
 });
 
 // Click Event End
-// --------------------------------------------
+// --------------------------------

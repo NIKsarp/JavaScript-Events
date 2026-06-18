@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // MouseLeave Event Start
 
 const button = document.getElementById(`button`);
@@ -11,4 +11,4 @@ button.addEventListener(`mouseleave`, (e) => {
 });
 
 // MouseLeave Event End
-// --------------------------------------------
+// --------------------------------

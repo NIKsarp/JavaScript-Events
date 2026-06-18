@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Change Event Start
 
 const select = document.getElementById(`select`);
@@ -9,4 +9,4 @@ select.addEventListener(`change`, () => {
 });
 
 // Change Event End
-// --------------------------------------------
+// --------------------------------

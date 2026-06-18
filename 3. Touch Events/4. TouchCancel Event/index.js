@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // TouchCancel Event Start
 
 const button = document.getElementById(`button`);
@@ -8,4 +8,4 @@ button.addEventListener(`touchcancel`, (e) => {
 });
 
 // TouchCancel Event End
-// --------------------------------------------
+// --------------------------------

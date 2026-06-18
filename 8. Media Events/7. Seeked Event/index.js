@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Seeked Event Start
 
 const video = document.getElementById(`video`);
@@ -9,4 +9,4 @@ video.addEventListener(`seeked`, () => {
 });
 
 // Seeked Event End
-// --------------------------------------------
+// --------------------------------

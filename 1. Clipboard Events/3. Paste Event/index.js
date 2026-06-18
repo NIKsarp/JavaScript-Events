@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // Paste Event Start
 
 const textarea = document.getElementById(`textarea`);
@@ -9,4 +9,4 @@ textarea.addEventListener(`paste`, () => {
 });
 
 // Paste Event End
-// --------------------------------------------
+// --------------------------------

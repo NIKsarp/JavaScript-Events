@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // TimeUpdate Event Start
 
 const video = document.getElementById(`video`);
@@ -9,4 +9,4 @@ video.addEventListener(`timeupdate`, () => {
 });
 
 // TimeUpdate Event End
-// --------------------------------------------
+// --------------------------------

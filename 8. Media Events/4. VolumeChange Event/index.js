@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // VolumeChange Event Start
 
 const video = document.getElementById(`video`);
@@ -9,4 +9,4 @@ video.addEventListener(`volumechange`, () => {
 });
 
 // VolumeChange Event End
-// --------------------------------------------
+// --------------------------------

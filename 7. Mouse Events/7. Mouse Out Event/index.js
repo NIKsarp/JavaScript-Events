@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // MouseOut Event Start
 
 const button = document.getElementById(`button`);
@@ -11,4 +11,4 @@ button.addEventListener(`mouseout`, (e) => {
 });
 
 // MouseOut Event End
-// --------------------------------------------
+// --------------------------------

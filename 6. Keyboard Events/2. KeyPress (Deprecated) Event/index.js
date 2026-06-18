@@ -1,4 +1,4 @@
-// --------------------------------------------
+// --------------------------------
 // KeyPress Event (Deprecated) Start
 
 const input = document.getElementById(`input`);
@@ -16,4 +16,4 @@ input.addEventListener(`keypress`, (event) => {
 });
 
 // KeyPress Event (Deprecated) End
-// --------------------------------------------
+// --------------------------------
